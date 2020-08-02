@@ -1,0 +1,19 @@
+type Album @model
+  @auth(rules: [
+    {allow: owner}
+  ]) {
+  id: ID!
+  name: String!
+  photos: [Photo] @connection(keyName: "byAlbum", fields: ["id"])
+}
+
+type Photo @model @key(name: "byAlbum", fields: ["albumID"])
+  @auth(rules: [
+    {allow: owner}
+  ]) {
+  id: ID!
+  uploadDate: AWSDateTime!
+  image: String
+  albumID: ID!
+  album: Album @connection(fields: ["albumID"])
+}

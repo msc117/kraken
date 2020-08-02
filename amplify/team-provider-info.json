@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-kraken-dev-211510-authRole",
+            "UnauthRoleArn": "arn:aws:iam::520024177890:role/amplify-kraken-dev-211510-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::520024177890:role/amplify-kraken-dev-211510-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "amplify-kraken-dev-211510-deployment",
+            "UnauthRoleName": "amplify-kraken-dev-211510-unauthRole",
+            "StackName": "amplify-kraken-dev-211510",
+            "StackId": "arn:aws:cloudformation:us-west-2:520024177890:stack/amplify-kraken-dev-211510/c1e3c260-d476-11ea-a65e-0ad5c43621b6",
+            "AmplifyAppId": "d2nkyhshdy99za"
+        },
+        "categories": {
+            "auth": {
+                "kraken92e764f2": {}
+            }
+        }
+    }
+}
