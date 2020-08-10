@@ -1,2 +1,2 @@
 # kraken
-Image Service
+Image and File Sharing Service
