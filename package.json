@@ -14,7 +14,7 @@
     "@types/react": "^16.9.44",
     "@types/react-dom": "^16.9.8",
     "@types/react-router-dom": "^5.1.5",
-    "aws-amplify": "^3.0.22",
+    "aws-amplify": "^6.15.6",
     "aws-amplify-react": "^4.1.21",
     "aws-appsync": "^4.0.0",
     "react": "^16.13.1",
